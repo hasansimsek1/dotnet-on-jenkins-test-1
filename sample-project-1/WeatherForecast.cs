@@ -1,4 +1,4 @@
-namespace dotnet_on_jenkins_test_1;
+namespace sample_project_1;
 
 public class WeatherForecast
 {
@@ -9,4 +9,9 @@ public class WeatherForecast
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
     public string? Summary { get; set; }
+
+    public int TestMe() 
+    {
+        return 1;
+    }
 }

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace dotnet_on_jenkins_test_1.Controllers;
+namespace sample_project_1.Controllers;
 
 [ApiController]
 [Route("[controller]")]

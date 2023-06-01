@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:6045",
-      "sslPort": 44383
+      "applicationUrl": "http://localhost:29453",
+      "sslPort": 44322
     }
   },
   "profiles": {
-    "dotnet_on_jenkins_test_1": {
+    "sample_project_1": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7244;http://localhost:5158",
+      "applicationUrl": "https://localhost:7062;http://localhost:5051",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>dotnet_on_jenkins_test_1</RootNamespace>
+    <RootNamespace>sample_project_1</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
