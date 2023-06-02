@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Restore') { 
             steps {
+                sh 'pwd'
                 sh 'dotnet restore' 
             }
         }
@@ -14,6 +15,12 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'dotnet test'
+            }
+        }
+        stage('Docker Build') {
+            steps {
+                sh 'pwd'
+                sh 'docker build --progress=plain --no-cache --tag sample-project-1-image .'
             }
         }
     }
